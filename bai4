@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .f1 {
+        background-color: rgba(34, 30, 30, 0.74);
+        width: 350px;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: grey;
+    }
+
+    .name1 {
+        margin-bottom: 20px;
+    }
+
+
+    .selectFramework {
+        margin-bottom: 20px;
+    }
+
+    .f1 label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .f1 input {
+        width: 94%;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: rgb(8, 1, 1);
+        border: 0;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .f1 select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: black;
+        color: #fff;
+
+    }
+
+    .tt {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .deploy {
+        color: black;
+        background-color: white;
+        border-radius: 8px;
+        height: 40px;
+        width: 34%;
+        border: 0;
+    }
+
+    .deploy:hover {
+        background-color: white;
+    }
+
+    .cancel {
+        background-color: rgb(15, 4, 4);
+        color: white;
+        border-radius: 8px;
+        height: 40px;
+        width: 34%;
+        border: 0;
+    }
+</style>
+
+<body>
+    <div class="f1">
+        <h1>Create project</h1>
+        <p>Deploy your new PJ in one-click</p>
+        <form>
+            <div class="name1">
+                <label class="Name" for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Name of your project"> <br>
+            </div>
+            <div class="selectFramework">
+                <label for="framework">Framework</label>
+                <br>
+                <select name="framework" id="framework">
+                    <option value="">Select</option>
+                    <option value="framework1">op1</option>
+                    <option value="framework2">op2</option>
+                </select>
+            </div>
+            <div class="tt">
+                <button type="button" class="cancel">Cancel</button>
+                <button type="submit" class="deploy">Deploy</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
