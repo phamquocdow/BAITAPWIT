@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #111;
+        }
+
+        img {
+
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="avt-round-contn">
+        <img src="https://i.pinimg.com/originals/c8/0c/33/c80c33399bf36d80cc827c9277260aa6.jpg" alt="avaSOVIET">
+    </div>
+</body>
+
+</html>
